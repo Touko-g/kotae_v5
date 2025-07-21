@@ -53,7 +53,7 @@ const onLeave = (el: any, done: any) => {
     translateY: [0, -100],
     duration: 1000,
     easing: 'easeOutElastic',
-    delay: (5 - el.dataset.index + 1) * 100, //
+    delay: (5 - el.dataset.index + 1) * 100,
     complete: done,
   })
 }

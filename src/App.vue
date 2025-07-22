@@ -46,7 +46,6 @@ const onEnter = (el: any, done: any) => {
     complete: done,
   })
 }
-
 const onLeave = (el: any, done: any) => {
   anime({
     targets: el,

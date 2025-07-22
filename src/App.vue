@@ -29,7 +29,7 @@ const route = useRoute()
 
 const flag = ref(false)
 const clickFlag = ref(false)
-const name = 'Kotae!!'
+const name = 'Kotae'
 const mode = ref(true)
 
 const scrollTop = ref(0)

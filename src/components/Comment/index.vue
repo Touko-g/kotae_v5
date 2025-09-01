@@ -10,7 +10,7 @@
         </template>
       </v-text-field>
     </div>
-    <div class="text-capitalize text-h5 font-weight-bold d-flex justify-space-between align-center">{{ t('comment') }}:
+    <div class="text-capitalize text-h5 text-font font-weight-bold d-flex justify-space-between align-center">{{ t('comment') }}:
       <v-btn v-show="page.count" @click="byTime" variant="text">{{ t('by_time') }}
         <v-icon
             color="primary"
